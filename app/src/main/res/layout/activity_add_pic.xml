@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".AddPicActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_add_pic"
+            style="@style/ToolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bg_rec_border_2"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/colorAccent" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/no_img" />
+
+    <TextView
+        android:id="@+id/tv_location_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:drawableStart="@drawable/ic_location_on_black_24dp"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/add_location"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/et_caption_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:background="@drawable/bg_rec_border"
+        android:gravity="top"
+        android:hint="Write a caption"
+        android:minLines="5"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="@dimen/_10sdp" />
+
+    <Button
+        android:id="@+id/btn_add_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/bg_rec_border"
+        android:paddingEnd="@dimen/_30sdp"
+        android:paddingStart="@dimen/_30sdp"
+        android:text="Add"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>

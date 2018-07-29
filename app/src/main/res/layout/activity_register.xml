@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_reg"
+            style="@style/ToolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bg_rec_border_2"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Register"
+            app:titleTextColor="@color/colorAccent" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_profile_reg"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:src="@drawable/ic_profile_80dp"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="2dp" />
+
+        <EditText
+            android:id="@+id/et_name_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_rec_border"
+            android:hint="Enter Your Full Name"
+            android:inputType="textPersonName"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorHint" />
+
+
+        <EditText
+            android:id="@+id/et_email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_rec_border"
+            android:hint="Enter Your Email"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorHint" />
+
+
+        <EditText
+            android:id="@+id/et_password_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_rec_border"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorHint" />
+
+
+        <EditText
+            android:id="@+id/et_con_password_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bg_rec_border"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorHint" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/bg_ripple"
+            android:paddingEnd="@dimen/_30sdp"
+            android:paddingStart="@dimen/_30sdp"
+            android:text="Register"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+</LinearLayout>

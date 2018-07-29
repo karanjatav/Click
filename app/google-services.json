@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "95278996686",
+    "firebase_url": "https://click-211507.firebaseio.com",
+    "project_id": "click-211507",
+    "storage_bucket": "click-211507.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95278996686:android:47acb006df64a83c",
+        "android_client_info": {
+          "package_name": "com.example.darkknight.click"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95278996686-7jhi4husescr3nh20jlme1n18sq50afo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.darkknight.click",
+            "certificate_hash": "840ef476cdab0ab6b36d27e50bf6dbdd443fbf2a"
+          }
+        },
+        {
+          "client_id": "95278996686-el16osdnhn995rtajcik25igv7hvhdff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMffQxsPPx-n0YicGgkVMkIjV2Uca31SY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95278996686-el16osdnhn995rtajcik25igv7hvhdff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
